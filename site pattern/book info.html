@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modsen NS</title>
+  <!-- My matirials -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js"></script>
+</head>
+<body>
+  
+  <header>
+    <h1>Search for books</h1>
+
+    <form action="./index.html">
+      <input type="search" name="request" placeholder="Search request">
+      <input type="submit" value="Search">
+
+      <br>
+
+      <label for="category">Categories</label>
+      <select name="category" id="category">
+        <option value="">all</option>
+      </select>
+      <wbr>
+      <label for="sortBy">Sorting by</label>
+      <select name="sortBy" id="sortBy">
+        <option value="">relevance</option>
+      </select>
+    </form>
+  </header>
+  
+  <main>
+    <div class="wrapper">
+      <div class="book-cover">
+        <img id="book-cover" src="./source/book-covers/Eloquent JavaScript.jpg" alt="">
+      </div>
+      <div class="book-information">
+        <div class="category">Category/...</div>
+        <div class="name">Name</div>
+        <div class="author">Author</div>
+        <div class="description">Description</div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>

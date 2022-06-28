@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modsen NS</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <header>
+    <h1>Search for books</h1>
+
+    <form action="./book info.html">
+      <input type="search" name="request" placeholder="Search request">
+      <input type="submit" value="Search">
+
+      <br>
+
+      <label for="category">Categories</label>
+      <select name="category" id="category">
+        <option value="">all</option>
+      </select>
+      <wbr>
+      <label for="sortBy">Sorting by</label>
+      <select name="sortBy" id="sortBy">
+        <option value="">relevance</option>
+      </select>
+    </form>
+  </header>
+  
+  <main>
+    <div id="results-count">Found 5 results</div>
+
+    <div id="books">
+      <div class="book-card">
+        <img src="./source/book-covers/JavaScript The Good Parts.jpg" alt="">
+        <div class="category">Category</div>
+        <div class="name">Name</div>
+        <div class="author">Author</div>
+      </div>
+      
+      <div class="book-card">
+        <img src="./source/book-covers/Programming C++++.jpg" alt="">
+        <div class="category">Category</div>
+        <div class="name">Name</div>
+        <div class="author">Author</div>
+      </div>
+
+      <div class="book-card">
+        <img src="./source/book-covers/Learning SQL.jpg" alt="">
+        <div class="category">Category</div>
+        <div class="name">Name</div>
+        <div class="author">Author</div>
+      </div>
+
+      <div class="book-card">
+        <img src="./source/book-covers/Programming Python.jpg" alt="">
+        <div class="category">Category</div>
+        <div class="name">Name</div>
+        <div class="author">Author</div>
+      </div>
+
+      <div class="book-card">
+        <img src="./source/book-covers/Eloquent JavaScript.jpg" alt="">
+        <div class="category">Category</div>
+        <div class="name">Name</div>
+        <div class="author">Author</div>
+      </div>
+    </div>
+
+    
+  </main>
+
+</body>
+</html>
