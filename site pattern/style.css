@@ -110,8 +110,7 @@ header form label{
   flex-direction: row;
 }
 .book-cover{
-  padding: 50px 70px;
-  background-color: #dfdfdf;
+  padding: 40px 70px;
 }
 #book-cover{
   width: 100%;
@@ -119,15 +118,17 @@ header form label{
 }
 .wrapper > div.book-information{
   flex: 1;
-  padding: 50px;
+  padding: 40px;
 }
 
+.book-information > div{
+  margin: 5px 0;
+}
 .book-information .category{
   margin-bottom: 20px;
   color: #878787;
 }
 .book-information .name{
-  margin: 5px 0;
   font-weight: bold;
   font-size: 20pt;
 }
@@ -136,7 +137,6 @@ header form label{
   color: #878787;
 }
 .book-information .description{
-  margin: 10px 0;
   padding: 10px;
   border: 2px solid #878787;
   border-radius: 5px;
