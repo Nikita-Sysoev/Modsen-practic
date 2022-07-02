@@ -111,6 +111,7 @@ header form label{
 }
 .book-cover{
   padding: 40px 70px;
+  background-color: #f3f2f0;
 }
 #book-cover{
   width: 100%;
@@ -140,4 +141,19 @@ header form label{
   padding: 10px;
   border: 2px solid #878787;
   border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .book-cover{
+    padding: 20px 20px;
+    background-color: #f3f2f0;
+  }
+  .wrapper > div.book-information{
+    flex: 1;
+    padding: 20px;
+  }
 }
